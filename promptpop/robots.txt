@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://promptpop.netlify.app/sitemap.xml
+Sitemap: https://zmshub.github.io/zms/promptpop/sitemap.xml
