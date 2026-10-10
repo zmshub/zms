@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zmslogo.netlify.app/sitemap.xml
+Sitemap: https://zmshub.github.io/zms/logo/sitemap.xml
