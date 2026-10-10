@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://promptpop.netlify.app/</loc>
+    <loc>https://zmshub.github.io/zms/promptpop/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://promptpop.netlify.app/cover-insta.jpg</image:loc></image:image>
-    <image:image><image:loc>https://promptpop.netlify.app/cover-indian.jpg</image:loc></image:image>
-    <image:image><image:loc>https://promptpop.netlify.app/cover-logos.jpg</image:loc></image:image>
-    <image:image><image:loc>https://promptpop.netlify.app/og.jpg</image:loc></image:image>
+    <image:image><image:loc>https://zmshub.github.io/zms/promptpop/cover-insta.jpg</image:loc></image:image>
+    <image:image><image:loc>https://zmshub.github.io/zms/promptpop/cover-indian.jpg</image:loc></image:image>
+    <image:image><image:loc>https://zmshub.github.io/zms/promptpop/cover-logos.jpg</image:loc></image:image>
+    <image:image><image:loc>https://zmshub.github.io/zms/promptpop/og.jpg</image:loc></image:image>
   </url>
 </urlset>
