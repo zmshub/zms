@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zmshub.github.io/zms/brain-games-puzzles/sitemap.xml
