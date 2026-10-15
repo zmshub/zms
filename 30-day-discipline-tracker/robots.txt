@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zmshub.github.io/zms/30-day-discipline-tracker/sitemap.xml
