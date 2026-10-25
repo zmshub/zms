@@ -38,7 +38,8 @@
     "promptpop-insta": ["PromptPop Instagram & Reels", 9900],
     "promptpop-indian": ["PromptPop Indian Aesthetics", 9900],
     "promptpop-logos": ["PromptPop Logos, Thumbnails & Posters", 9900],
-    "promptpop-bundle": ["PromptPop All 3 Bundle", 29900]
+    "promptpop-bundle": ["PromptPop All 3 Bundle", 29900],
+    "promptpop-product-photo": ["PromptPop Product Photo Prompts", 9900]
   };
 
   function toHex(c) {
