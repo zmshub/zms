@@ -385,6 +385,7 @@ h1{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:clamp(
  .no-js .tabs{display:none}
 }
 @media (max-width:560px){.ov small{display:none}.ov b{font-size:16.5px;line-height:1.3}.ov-ic{width:38px;height:38px;font-size:17px}}
+@media (max-width:760px){.tabs{-webkit-mask:linear-gradient(90deg,#000 85%,transparent);mask:linear-gradient(90deg,#000 85%,transparent)}.tabs.end{-webkit-mask:none;mask:none}}
 </style>
 </head>
 <body>
@@ -632,8 +633,8 @@ h1{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:clamp(
  <div class="wrap">
   <div class="sec-h reveal"><p class="eyebrow">Shop</p><h2>Ready-made <em>products.</em></h2><p class="sub">Instant-download packs, templates and kits, plus quick services from the studio.</p></div>
   <div class="shop">
-   <a class="pack glass tilt reveal" href="https://superprofile.bio/zms" rel="noopener"><div class="pack-img"><img src="shop-popart.jpg" alt="Pop-Art Abstract Backgrounds Vol. 1 cover" width="1000" height="563" loading="lazy" decoding="async"></div><b>Pop-Art Backgrounds Vol. 1</b><small>Generative art pack</small></a>
-   <a class="pack glass tilt reveal" href="https://superprofile.bio/zms" rel="noopener"><div class="pack-img"><img src="shop-moody.jpg" alt="Moody Cinematic Landscapes Vol. 1 cover" width="1280" height="720" loading="lazy" decoding="async"></div><b>Moody Cinematic Landscapes</b><small>Generative art pack</small></a>
+   <a class="pack glass tilt reveal" href="https://superprofile.bio/vp/6accbe1cb163cb00130b197f" rel="noopener"><div class="pack-img"><img src="shop-popart.jpg" alt="Pop-Art Abstract Backgrounds Vol. 1 cover" width="1000" height="563" loading="lazy" decoding="async"></div><b>Pop-Art Backgrounds Vol. 1</b><small>Generative art pack</small></a>
+   <a class="pack glass tilt reveal" href="https://superprofile.bio/vp/6accbd42601f2e00138f1e1e" rel="noopener"><div class="pack-img"><img src="shop-moody.jpg" alt="Moody Cinematic Landscapes Vol. 1 cover" width="1280" height="720" loading="lazy" decoding="async"></div><b>Moody Cinematic Landscapes</b><small>Generative art pack</small></a>
   </div>
   <div class="prods"><a class="prod glass reveal" href="../ai-photo-restoration/"><span class="new">New</span><b>ZMS Generative Photo Restoration</b><small>Old photos repaired &amp; colourized in 24h · ₹199</small><i aria-hidden="true">→</i></a><a class="prod glass reveal" href="../freelancer-kit/"><span class="new">New</span><b>Freelancer Business Kit</b><small>Invoice, quote, contract &amp; client tracker templates · ₹149</small><i aria-hidden="true">→</i></a><a class="prod glass reveal" href="../ai-product-shots/"><span class="new">New</span><b>ZMS Generative Product Shots</b><small>5 Generative product photos from your phone photo in 24h · ₹299</small><i aria-hidden="true">→</i></a><a class="prod glass reveal" href="../logo/"><b>ZMS Logo Express</b><small>Logo design in 24 hours · ₹499</small><i aria-hidden="true">→</i></a><a class="prod glass reveal" href="../spendwise/"><b>SpendWise</b><small>Salary &amp; expense tracker · Excel + Google Sheets · ₹149</small><i aria-hidden="true">→</i></a><a class="prod glass reveal" href="../hireready/"><b>HireReady</b><small>ATS resume kit for freshers + resume &amp; LinkedIn services</small><i aria-hidden="true">→</i></a><a class="prod glass reveal" href="../da-interview-pack/"><b>Data Analyst Interview Pack</b><small>SQL, Excel, Power BI interview Q&amp;A · ₹99</small><i aria-hidden="true">→</i></a><a class="prod glass reveal" href="../promptpop/"><b>PromptPop</b><small>Generative image prompt packs</small><i aria-hidden="true">→</i></a><a class="prod glass reveal" href="../colourfunn/"><b>Colourfunn</b><small>Printable kids coloring books</small><i aria-hidden="true">→</i></a></div>
   <div class="shop-foot reveal"><a class="btn btn-primary mag" href="https://superprofile.bio/zms" rel="noopener">Visit the store <span aria-hidden="true">→</span></a><span class="muted">superprofile.bio/zms</span></div>
@@ -723,6 +724,8 @@ d.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if
 if(location.hash)routeHash(location.hash,false);
 w.addEventListener('hashchange',function(){routeHash(location.hash,true)});
 
+/* mobile tab scroller fade */
+var tl=$('.tabs');if(tl){var te=function(){tl.classList.toggle('end',tl.scrollLeft+tl.clientWidth>=tl.scrollWidth-4)};tl.addEventListener('scroll',te,{passive:true});w.addEventListener('resize',te);te()}
 /* scroll reveal */
 var rv=$$('.reveal');
 if(RM||!('IntersectionObserver' in w)){rv.forEach(function(r){r.classList.add('in')})}
