@@ -61,7 +61,8 @@
     var sections = [].slice.call(doc.querySelectorAll("section[data-nav]"));
     var header = doc.querySelector("header.nav[data-auto]");
     if (header) {
-      header.innerHTML = '<nav class="seg" aria-label="Sections">' +
+      header.innerHTML = '<a class="nav-brand" href="#" aria-label="Zero Minute Studio" style="flex:none;display:block;line-height:0;border-radius:50%"><img src="zms-logo.png" width="38" height="38" alt="Zero Minute Studio logo" style="display:block;width:38px;height:38px;border-radius:50%;object-fit:cover"></a>' +
+        '<nav class="seg" aria-label="Sections">' +
         each(sections, function (s) { return '<a href="#' + esc(s.id) + '">' + esc(s.getAttribute("data-nav")) + "</a>"; }) + "</nav>" +
         '<button class="theme-btn" id="theme-btn" type="button" aria-label="Switch to dark theme"></button>';
     }
