@@ -16,15 +16,15 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap"
     />
-    <link rel="stylesheet" href="hark.css" />
-    <link rel="stylesheet" href="hark-hero.css" />
+    <link rel="stylesheet" href="zms-ui.css" />
+    <link rel="stylesheet" href="zms-ui-hero.css" />
     <style>
       .x-trust { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0; padding: 0; list-style: none; font: var(--type-tag); color: var(--hero-text-muted); }
       .x-trust li::before { content: "\2713"; margin-right: 6px; color: var(--fill-system-green); }
       .x-shop { padding: 14px 18px; border-radius: var(--r-s); background: var(--hero-text); color: var(--hero-surface); font: var(--type-body-strong); text-decoration: none; display: inline-flex; align-items: center; min-height: var(--tap); width: fit-content; }
       .x-shop:hover { opacity: 0.9; }
 
-      .x-filter { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); z-index: 20; justify-self: center; max-width: 100%; padding: 5px; border-radius: var(--r-pill); box-shadow: var(--hark-shadow); margin-bottom: 20px; width: fit-content; }
+      .x-filter { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); z-index: 20; justify-self: center; max-width: 100%; padding: 5px; border-radius: var(--r-pill); box-shadow: var(--zms-shadow); margin-bottom: 20px; width: fit-content; }
       .x-seg { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; border-radius: var(--r-pill); background: var(--fill-segment); }
       .x-seg::-webkit-scrollbar { display: none; }
       .x-seg button { flex: none; min-height: var(--tap); padding: 8px 14px; border: 0; border-radius: var(--r-pill); background: transparent; font: var(--type-label); color: var(--text-secondary-on); white-space: nowrap; cursor: pointer; }
@@ -40,7 +40,7 @@
       @media (min-width: 760px) { .x-grid--feature { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; } }
 
       .x-card { display: flex; flex-direction: column; gap: 12px; padding: 12px; border-radius: var(--r-m); background: var(--fill-tertiary); color: var(--text-primary); text-decoration: none; transition: transform var(--dur-quick) var(--ease-out), box-shadow var(--dur-quick) ease; }
-      .x-card:hover { transform: translateY(-2px); box-shadow: var(--hark-shadow); }
+      .x-card:hover { transform: translateY(-2px); box-shadow: var(--zms-shadow); }
       .x-card[hidden] { display: none; }
       .x-card img { display: block; width: 100%; height: auto; border-radius: var(--r-s); background: var(--fill-primary-on); }
       .x-card__body { display: flex; flex-direction: column; gap: 6px; flex: 1; padding: 0 4px 4px; }
@@ -371,7 +371,7 @@
         <nav aria-label="Back to sections" data-auto></nav>
       </footer>
     </div>
-    <script src="hark.js"></script>
+    <script src="zms-ui.js"></script>
     <script>
       (function () {
         var btns = document.querySelectorAll(".x-seg button");
