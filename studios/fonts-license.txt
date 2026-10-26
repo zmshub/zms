@@ -1,0 +1,5 @@
+Fonts self-hosted on this page (subset, WOFF2):
+- Manrope — Copyright 2018 The Manrope Project Authors (https://github.com/googlefonts/manrope)
+- Instrument Serif — Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
+
+Both are licensed under the SIL Open Font License, Version 1.1: https://openfontlicense.org/open-font-license-official-text/
