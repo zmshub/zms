@@ -40,7 +40,15 @@
     "promptpop-logos": ["PromptPop Logos, Thumbnails & Posters", 9900],
     "promptpop-bundle": ["PromptPop All 3 Bundle", 29900],
     "promptpop-product-photo": ["PromptPop Product Photo Prompts", 9900],
-    "spendwise-subscription": ["SpendWise Subscription Tracker", 14900]
+    "spendwise-subscription": ["SpendWise Subscription Tracker", 14900],
+    "gst-invoice": ["GST Invoice & Quotation Generator", 14900],
+    "shop-bookkeeping": ["Small Shop Bookkeeping & Inventory Sheet", 19900],
+    "freelancer-tracker": ["Freelancer Client, Project & Invoice Tracker", 14900],
+    "job-tracker": ["Job Application Tracker", 9900],
+    "study-planner": ["Study & Exam Planner System", 9900],
+    "logic-grid-book": ["Logic Grid Puzzle Book", 14900],
+    "nonogram-book": ["Nonogram Picture Logic Puzzles", 9900],
+    "sudoku-book": ["Sudoku Brain Training Book", 9900]
   };
 
   function toHex(c) {
@@ -182,6 +190,13 @@
       btn.setAttribute("aria-label", "Pay by card or UPI for " + P[sku][0]);
       btn.innerHTML = ICON + "<span>Pay by card / UPI</span>";
       var isCard = host.classList.contains("x-card");
+      if (host.getAttribute("data-direct") === "1") {
+        var dTheme = themeFor(host);
+        host.addEventListener("click", function (e) {
+          if (open(sku, dTheme, null)) e.preventDefault();
+        });
+        return;
+      }
       var theme = themeFor(host);
       if (!isCard) btn.style.setProperty("--zp-c", theme);
       btn.addEventListener("click", function (e) {
