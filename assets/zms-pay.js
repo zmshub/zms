@@ -41,6 +41,7 @@
     "promptpop-bundle": ["PromptPop All 3 Bundle", 29900],
     "promptpop-product-photo": ["PromptPop Product Photo Prompts", 9900],
     "spendwise-subscription": ["SpendWise Subscription Tracker", 14900],
+    "net-worth-tracker": ["SpendWise Net Worth Tracker", 14900],
     "gst-invoice": ["GST Invoice & Quotation Generator", 14900],
     "shop-bookkeeping": ["Small Shop Bookkeeping & Inventory Sheet", 19900],
     "freelancer-tracker": ["Freelancer Client, Project & Invoice Tracker", 14900],
