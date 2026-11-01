@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zmshub.github.io/zms/cryptogram-book-2/sitemap.xml
