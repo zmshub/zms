@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zmshub.github.io/zms/sudoku-large-print-book/sitemap.xml
